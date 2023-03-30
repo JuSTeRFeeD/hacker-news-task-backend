@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using api_hacker_news_ASP.NET_Core.Models;
-using Microsoft.AspNetCore.Mvc;
 using System.Net.Http;
 using System.Threading.Tasks;
+using api_hacker_news_ASP.NET_Core.Models;
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
-namespace api_hacker_news_ASP.NET_Core.Routes
+namespace api_hacker_news_ASP.NET_Core.Controllers
 {
     [ApiController]
     [Route("[controller]")]
